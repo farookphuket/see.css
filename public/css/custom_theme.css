@@ -1,0 +1,37 @@
+
+
+
+#app .wrapper main .container > .post-thumbnail{
+    margin-bottom:45px;
+}
+
+label.checkbox{
+    font-size:1.5rem;
+}
+
+input[type=checkbox]{
+/* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+  margin-right:0.7em;
+}
+
+@media (max-width:768px){
+
+    #app .wrapper main .container .post-thumbnail .columns.is-mobile.is-multiline > .column.is-post-list {
+        flex:none;
+        width:100%;
+    }
+
+    #app .wrapper main .container .post-thumbnail 
+    div > form > div.is-post-list .columns{
+        display:block;
+    }
+
+
+}
+

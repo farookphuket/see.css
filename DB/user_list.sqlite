@@ -1,0 +1,46 @@
+/*
+*  ============================================================================
+*               DO NOT DELETE THIS ROW
+*/   
+/* =========================== Insert new id 1 ======================
+ * on 2007-09-10 02:36:17 am START 
+ * */
+INSERT INTO `users`(`name`,`avatar`,`email`,`password`,`email_verified_at`,`is_admin`,
+`created_at`,`updated_at`)VALUES(
+    'farook',
+    '',
+    'farook@me.me',
+    '$2y$10$iKi.yWrpeYupRyyC0IpcZeSevb0w7sDXFr6eEN0NFlNnvI3tml4A2',
+    '2007-09-10 02:36:17',
+    '1',
+    '2007-09-10 02:30:29',
+    '2007-09-10 02:36:17');
+
+/* ============================================================================
+ *                  END OF INSERT DEFAULT USER
+ * ============================================================================
+ * */
+
+
+INSERT INTO `users`(`name`,`avatar`,`email`,`password`,`email_verified_at`,`is_admin`,
+`created_at`,`updated_at`)VALUES(
+    'kenny',
+    '',
+    'kenny@me.me',
+    '$2y$10$iKi.yWrpeYupRyyC0IpcZeSevb0w7sDXFr6eEN0NFlNnvI3tml4A2',
+    '2007-09-10 02:36:17',
+    '0',
+    '2007-09-10 02:30:29',
+    '2007-09-10 02:36:17');
+
+
+INSERT INTO `users`(`name`,`avatar`,`email`,`password`,`email_verified_at`,`is_admin`,
+`created_at`,`updated_at`)VALUES(
+    'maria',
+    '',
+    'maria@me.me',
+    '$2y$10$iKi.yWrpeYupRyyC0IpcZeSevb0w7sDXFr6eEN0NFlNnvI3tml4A2',
+    '2007-09-10 02:36:17',
+    '0',
+    '2007-09-10 02:30:29',
+    '2007-09-10 02:36:17');
